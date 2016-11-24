@@ -1,0 +1,48 @@
+
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/PT-Sans-Narrow-Bold.eot);
+  src: local('PT Sans Narrow Bold'), local('PTSans-NarrowBold'), local('PT Sans Narrow'), url(fonts/PT-Sans-Narrow-Bold.woff) format('woff'), url(fonts/PT-Sans-Narrow-Bold.svg#PTSansNarrow) format('svg'), url(fonts/PT-Sans-Narrow-Bold.woff2) format('woff2'), url(fonts/PT-Sans-Narrow-Bold.eot?#iefix) format('embedded-opentype'), url(fonts/PT-Sans-Narrow-Bold.ttf) format('truetype');
+}
+
+* {
+    cursor: none;
+}
+
+.header, .footer {
+    position: absolute;
+    font: 700 72px "PT Sans Narrow";
+    z-index: 100;
+    color: #eee;
+}
+.header {  
+    top: 0;
+    left: 0;
+    right: 0;
+    // background: #000;
+    
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    // border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    // box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    
+    text-shadow: 5px 5px 1px #000;
+    letter-spacing: 2px;
+    
+}
+
+.footer {
+    right: 10px;
+    bottom: 5px;
+    text-transform: none;
+    font-size: 14px;
+    text-shadow: 1px 1px 1px #000;
+    opacity: 0.25;
+}
+
+.vegas-timer-progress {
+    opacity: 0.25;
+}

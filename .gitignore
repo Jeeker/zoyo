@@ -1,0 +1,13 @@
+# 图片 视频等内容不记录
+/docs/media/
+
+# Windows
+[Dd]esktop.ini
+[Tt]humbs.db
+$RECYCLE.BIN/
+
+# MacOSX
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
